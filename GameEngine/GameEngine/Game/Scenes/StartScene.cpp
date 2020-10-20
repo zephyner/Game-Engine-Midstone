@@ -23,3 +23,8 @@ void StartScene::Render()
 {
 
 }
+
+void StartScene::Draw()
+{
+
+}

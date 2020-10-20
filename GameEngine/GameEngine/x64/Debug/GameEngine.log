@@ -1,48 +1,167 @@
 ﻿  CollisionHandler.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Math\BoundingBox.h(4,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   CollisionDetection.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Camera\Camera.h(4,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6,20): warning C4099: 'BoundingBox': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   Camera.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Camera\Camera.h(4,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   Debug.cpp
   CoreEngine.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Core\CoreEngine.cpp(10,11): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
   GameObject.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
   EventListener.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Event\MouseEventListener.h(4,9): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   GameScene.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   Game1.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   LightSource.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\FX\LightSource.h(3,9): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
   LoadOBJModel.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
   Main.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   Window.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
   Timer.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Timer.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
   StartScene.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Core\Window.h(4,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   Mesh.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.cpp(58,58): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
   Model.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Rendering\3D\Model.cpp(68,33): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
   ShaderHandler.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Graphics\ShaderHandler.h(8,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Graphics\ShaderHandler.cpp(120,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Graphics\ShaderHandler.cpp(120,43): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
   TextureHandler.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Graphics\TextureHandler.h(7,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Graphics\TextureHandler.cpp(61,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Graphics\TextureHandler.cpp(62,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   MouseEventListener.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Event\MouseEventListener.h(4,9): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(86,44): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(89,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(90,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(97,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(98,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   Generating Code...
   Compiling...
   SceneGraph.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   MaterialHandler.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Graphics\MaterialHandler.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
   MaterialLoader.cpp
-C:\Users\vanja\Downloads\GameEngine (1)\GameEngine\GameEngine\Engine\Graphics\MaterialHandler.h(4,10): fatal error C1083: Cannot open include file: 'glew.h': No such file or directory
   Generating Code...
+CoreEngine.obj : error LNK2019: unresolved external symbol SDL_GL_SwapWindow referenced in function "private: void __cdecl CoreEngine::Render(void)" (?Render@CoreEngine@@AEAAXXZ)
+CoreEngine.obj : error LNK2019: unresolved external symbol SDL_WarpMouseInWindow referenced in function "public: bool __cdecl CoreEngine::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@CoreEngine@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+CoreEngine.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: void __cdecl CoreEngine::Run(void)" (?Run@CoreEngine@@QEAAXXZ)
+CoreEngine.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "private: void __cdecl CoreEngine::OnDestroy(void)" (?OnDestroy@CoreEngine@@AEAAXXZ)
+CoreEngine.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "private: void __cdecl CoreEngine::Render(void)" (?Render@CoreEngine@@AEAAXXZ)
+CoreEngine.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "private: void __cdecl CoreEngine::Render(void)" (?Render@CoreEngine@@AEAAXXZ)
+EventListener.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: static void __cdecl EventListener::Update(void)" (?Update@EventListener@@SAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_SetAttribute referenced in function "private: void __cdecl Window::SetPostAttributes(void)" (?SetPostAttributes@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_CreateContext referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_SetSwapInterval referenced in function "private: void __cdecl Window::SetPreAttributes(void)" (?SetPreAttributes@Window@@AEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_GL_DeleteContext referenced in function "public: void __cdecl Window::OnDestroy(void)" (?OnDestroy@Window@@QEAAXXZ)
+Window.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function "public: bool __cdecl Window::OnCreate(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int)" (?OnCreate@Window@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z)
+Window.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function "private: void __cdecl Window::SetPreAttributes(void)" (?SetPreAttributes@Window@@AEAAXXZ)
+Timer.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: unsigned int __cdecl Timer::GetSleepTime(unsigned int)" (?GetSleepTime@Timer@@QEAAII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp_glBindTexture referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+TextureHandler.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+Mesh.obj : error LNK2019: unresolved external symbol __imp_glDrawArrays referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewActiveTexture referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteBuffers referenced in function "public: void __cdecl Mesh::OnDestroy(void)" (?OnDestroy@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewUniform1f referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewUniform1i referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewUniform3f referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function "public: void __cdecl Mesh::Render(class Camera *,class std::vector<struct glm::tmat4x4<float,0>,class std::allocator<struct glm::tmat4x4<float,0> > >)" (?Render@Mesh@@QEAAXPEAVCamera@@V?$vector@U?$tmat4x4@M$0A@@glm@@V?$allocator@U?$tmat4x4@M$0A@@glm@@@std@@@std@@@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewDeleteVertexArrays referenced in function "public: void __cdecl Mesh::OnDestroy(void)" (?OnDestroy@Mesh@@QEAAXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function "private: void __cdecl Mesh::GenerateBuffers(void)" (?GenerateBuffers@Mesh@@AEAAXXZ)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function "private: unsigned int __cdecl ShaderHandler::CreateShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@ShaderHandler@@AEAAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function "private: unsigned int __cdecl ShaderHandler::CreateShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@ShaderHandler@@AEAAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewDeleteProgram referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramInfoLog referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewGetProgramiv referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderInfoLog referenced in function "private: unsigned int __cdecl ShaderHandler::CreateShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@ShaderHandler@@AEAAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewGetShaderiv referenced in function "private: unsigned int __cdecl ShaderHandler::CreateShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@ShaderHandler@@AEAAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function "public: void __cdecl ShaderHandler::CreateProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateProgram@ShaderHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00@Z)
+ShaderHandler.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function "private: unsigned int __cdecl ShaderHandler::CreateShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShader@ShaderHandler@@AEAAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol __imp_glDeleteTextures referenced in function "public: void __cdecl TextureHandler::OnDestroy(void)" (?OnDestroy@TextureHandler@@QEAAXXZ)
+TextureHandler.obj : error LNK2019: unresolved external symbol __imp_glGenTextures referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol __imp_glTexImage2D referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol __imp_glTexParameteri referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+TextureHandler.obj : error LNK2019: unresolved external symbol __imp___glewGenerateMipmap referenced in function "public: void __cdecl TextureHandler::CreateTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateTexture@TextureHandler@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+MouseEventListener.obj : error LNK2019: unresolved external symbol SDL_GetMouseState referenced in function "private: static void __cdecl MouseEventListener::UpdateMousePosition(void)" (?UpdateMousePosition@MouseEventListener@@CAXXZ)
+SceneGraph.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function "public: void __cdecl SceneGraph::Render(class Camera *)" (?Render@SceneGraph@@QEAAXPEAVCamera@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\GameDev\SDL\lib\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\GameDev\SDL\lib\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\GameDev\OpenGL\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\GameDev\OpenGL\lib\glew32s.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Keshy\Desktop\game-engines5\GameEngine\x64\Debug\GameEngine.exe : fatal error LNK1120: 59 unresolved externals
