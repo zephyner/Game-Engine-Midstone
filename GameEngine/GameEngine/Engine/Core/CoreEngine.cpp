@@ -101,7 +101,7 @@ void CoreEngine::Render()
     if (gameInterFace)
     {
         gameInterFace->Render();
-        gameInterFace->Draw();
+        //gameInterFace->Draw();
     }
     
     //RENDER GAME 

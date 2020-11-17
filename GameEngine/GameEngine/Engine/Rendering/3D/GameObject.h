@@ -21,7 +21,7 @@ public:
 	BoundingBox GetBoundingBox();
 	std::string GetTag() const;
 	bool GetHit() const;
-	
+
 	void SetPosition(glm::vec3 Position_);
 	void SetAngle(float angle_);
 	void SetRotation(glm::vec3 rotation_);
@@ -30,15 +30,14 @@ public:
 	void SetHit(bool hit_, int buttonType_);
 	void OnDestroy();
 
-	//component add it here
 	template <class T>
-	void AddComponent() 
-	{ 
-		T* temp = new T(); 
-		
+	void AddComponent()
+	{
+		T* temp = new T();
+
 		if (dynamic_cast<Component*>(temp) == nullptr)
 		{
-			Debug::Error("Object is not child of component: " + filePath_, "GameObject.h", __LINE__);
+			Debug::Error("Object is not child of component: ", "GameObject.h", __LINE__);
 			delete temp;
 			temp = nullptr;
 			return;
@@ -46,7 +45,7 @@ public:
 
 		if (GetComponent<T>() != nullptr)
 		{
-			Debug::Error("Object is not child of component: " + filePath_, "GameObject.h", __LINE__);
+			Debug::Error("Object could not be gotten: ", "GameObject.h", __LINE__);
 			delete temp;
 			temp = nullptr;
 			return;
@@ -54,41 +53,32 @@ public:
 
 		temp->OnCreate(this);
 		component.push_back(temp);
+	}
 
-	}
 	template <class T>
-	T* GetComponent() 
-	{ 
-		T* = component;
-		int numComponents = 10;
-		for (int component{0}; component < numComponents; component++ )
-		{
-			if (component <= 1)
-			{
-				Component* c = dynamic_cast<Component*>(c);
-				Component* b = dynamic_cast<Component*>(b);
-				Component* a = dynamic_cast<Component*>(a);
-				return;
-			}
-			return 0;
-		}
-	}
-	template <class T>
-	void RemoveComponent() 
+	T* GetComponent()
 	{
-		T* = component;
-		for (Component* c; Component* b; Component* a; : component)
+		for (Component* comp : component)
+			if (dynamic_cast<T>(*comp))
+				return (T*)comp;
+		return nullptr;
+	}
+
+	template <class T>
+	void RemoveComponent()
+	{
+		for (int i = 0; i < component.size(); i++)
 		{
-			delete c;
-			c = nullptr;
+			if (dynamic_cast<T*>(component[i]))
+			{
+				delete component[i];
+				component[i] = nullptr;
 
-			delete b;
-			b = nullptr;
+				component.erase(component.begin() + i);
 
-			delete a;
-			a = nullptr;
+				break;
+			}
 		}
-		component.clear();
 	}
 
 private:
@@ -109,3 +99,5 @@ private:
 };
 
 #endif // !GAMEOBJECT_H
+
+

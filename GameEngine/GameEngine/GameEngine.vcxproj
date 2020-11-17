@@ -24,7 +24,6 @@
     <ClCompile Include="Engine\Camera\Camera.cpp" />
     <ClCompile Include="Engine\Core\Debug.cpp" />
     <ClCompile Include="Engine\Core\CoreEngine.cpp" />
-    <ClCompile Include="Engine\Rendering\3D\Component.cpp" />
     <ClCompile Include="Engine\Rendering\3D\GameObject.cpp" />
     <ClCompile Include="Engine\Event\EventListener.cpp" />
     <ClCompile Include="Game\Scenes\GameScene.cpp" />
@@ -44,6 +43,9 @@
     <ClCompile Include="Engine\Graphics\MaterialHandler.cpp" />
     <ClCompile Include="Engine\FX\MaterialLoader.cpp" />
     <ClCompile Include="Engine\Rendering\3D\SpriteSurface.cpp" />
+    <ClCompile Include="Engine\FX\Particle.cpp" />
+    <ClCompile Include="Engine\FX\ParticleEmitter.cpp" />
+    <ClCompile Include="Engine\Math\Randomizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Math\CollisionHandler.h" />
@@ -75,6 +77,9 @@
     <ClInclude Include="Engine\Graphics\MaterialHandler.h" />
     <ClInclude Include="Engine\FX\MaterialLoader.h" />
     <ClInclude Include="Engine\Rendering\3D\SpriteSurface.h" />
+    <ClInclude Include="Engine\FX\Particle.h" />
+    <ClInclude Include="Engine\FX\ParticleEmitter.h" />
+    <ClInclude Include="Engine\Math\Randomizer.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Engine\Shaders\ColourFragmentShader.glsl" />

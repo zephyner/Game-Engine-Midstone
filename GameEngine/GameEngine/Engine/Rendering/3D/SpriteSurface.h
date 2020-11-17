@@ -6,7 +6,9 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "../../Camera/Camera.h"
-#include "Model.h"
+#include "../../Graphics/TextureHandler.h"
+#include <glm/gtc/matrix_transform.hpp>
+
 
 struct Vertex
 {
