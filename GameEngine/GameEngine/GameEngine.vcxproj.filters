@@ -84,9 +84,6 @@
     <ClCompile Include="Engine\Math\CollisionHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\Rendering\3D\SpriteSurface.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Engine\FX\Particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -182,9 +179,6 @@
     <ClInclude Include="Engine\Rendering\3D\Container.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\Rendering\3D\SpriteSurface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Engine\FX\Particle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -200,8 +194,6 @@
     <None Include="Engine\Shaders\ColourFragmentShader.glsl" />
     <None Include="Engine\Shaders\VertexShader.glsl" />
     <None Include="Engine\Shaders\FragmentShader.glsl" />
-    <None Include="Engine\Shaders\SpriteFragShader.glsl" />
-    <None Include="Engine\Shaders\SpriteVertShader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\Textures\cubetext1.jpg">

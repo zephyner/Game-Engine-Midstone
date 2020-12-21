@@ -1,6 +1,13 @@
-﻿  GameScene.cpp
-C:\Users\Keshy\Desktop\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
-C:\Users\Keshy\Desktop\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
-C:\Users\Keshy\Desktop\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
-C:\Users\Keshy\Desktop\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
-  GameEngine.vcxproj -> C:\Users\Keshy\Desktop\Game-Engine-Midstone\GameEngine\Debug\GameEngine.exe
+﻿  CollisionHandler.cpp
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  GameObject.cpp
+  GameScene.cpp
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  Generating Code...
+  GameEngine.vcxproj -> C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\Debug\GameEngine.exe

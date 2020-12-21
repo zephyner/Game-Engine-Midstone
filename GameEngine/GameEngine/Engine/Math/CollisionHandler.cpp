@@ -44,7 +44,7 @@ void CollisionHandler::Update(glm::vec2 mousePosition_, int buttonType_)
 	GameObject* hitResult = nullptr;
 	float shortestDist = FLT_MAX;
 
-	for (auto g : colliders)
+	/*for (auto g : colliders)
 	{
 		if (mouseRay.IsColliding(&g->GetBoundingBox()))
 		{
@@ -54,7 +54,7 @@ void CollisionHandler::Update(glm::vec2 mousePosition_, int buttonType_)
 				shortestDist = mouseRay.intersectionDistance;
 			}
 		}
-	}
+	}*/
 
 	if (hitResult)
 	{

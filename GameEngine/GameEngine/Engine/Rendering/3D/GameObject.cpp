@@ -7,7 +7,7 @@ GameObject::GameObject(Model* model_, glm::vec3 position_) : model(nullptr)
 	model = model_;
 	position = position_;
 	angle = 0.0f;
-	rotation = glm::vec3(0.0f,1.0f,0.0f);
+	rotation = glm::vec3(0.0f, 1.0f, 0.0f);
 	scale = glm::vec3(1.0f);
 	tag = "";
 	hit = false;
@@ -67,7 +67,42 @@ BoundingBox GameObject::GetBoundingBox()
 
 void GameObject::SetPosition(glm::vec3 Position_)
 {
-	position = Position_;
+	position.x += Position_.x;
+	position.y += Position_.y;
+	position.z += Position_.z;
+	
+
+	if (position.x >= 20)
+	{
+		position.x = 20;
+	}
+
+
+	if (position.x <= -20)
+	{
+		position.x = -20;
+	}
+
+	if (position.y >= 10)
+	{
+		position.y = 10;
+	}
+
+	if (position.y <= -10)
+	{
+		position.y = -10;
+	}
+
+	if (position.z >= 10)
+	{
+		position.z = 10;
+	}
+
+	if (position.z <= -10)
+	{
+		position.z = -10;
+	}
+
 	if (model)
 	{
 		model->UpdateInstace(modelInstance, position, angle, rotation, scale);

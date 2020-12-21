@@ -19,23 +19,33 @@ bool GameScene::OnCreate()
 	//Light Source
 	CoreEngine::GetInstance()->GetCamera()->AddLightSources(new LightSource(glm::vec3(0.0f, 0.0f, 2.0f), 1.0f, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f)));
 
-	//model
+	//dice model
 	
 	Model* model1 = new Model("./Resources/Models/Dice.obj", "./Resources/Materials/Dice.mtl", ShaderHandler::GetInstance()->GetShader("basicShader"));
-
-
 	SceneGraph::GetInstance()->AddModel(model1);
 
-	//add gameobject
-	GameObject* dice = new GameObject(model1, glm::vec3(1.5f,-0.5f,0.0f));
+	//apple model
+	Model* model2 = new Model("./Resources/Models/Dice.obj", "./Resources/Materials/Dice.mtl", ShaderHandler::GetInstance()->GetShader("basicShader"));
+	SceneGraph::GetInstance()->AddModel(model2);
 
+	//add gameobject
+	GameObject* dice = new GameObject(model1, glm::vec3(-2.0f, -0.5f, 0.0f));
 	SceneGraph::GetInstance()->AddGameObject(dice, "dice");
+
+	GameObject* dice2 = new GameObject(model2, glm::vec3(3.0f, -1.0f, 0.0f));
+	SceneGraph::GetInstance()->AddGameObject(dice2, "dice");
+
+
 
 	return true;
 }
 void GameScene::Update(const float deltaTime_)
 {
 	SceneGraph::GetInstance()->Update(deltaTime_);
+	
+	SceneGraph::GetInstance()->GetGameObject("dice")->SetPosition(glm::vec3(-0.05f, 0.0f, 0.0f));
+
+	
 }
 void GameScene::Render()
 {

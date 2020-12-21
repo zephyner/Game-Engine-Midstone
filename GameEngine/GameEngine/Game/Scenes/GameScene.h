@@ -4,6 +4,7 @@
 #include <glm/gtx/string_cast.hpp>
 #include "../../Engine/Rendering/3D/Component.h"
 
+
 class GameScene : public Scene
 {
 public:
@@ -16,5 +17,6 @@ public:
 	virtual void Draw();
 private: 
 
+	
 };
 #endif //!GAMESCENE_H
