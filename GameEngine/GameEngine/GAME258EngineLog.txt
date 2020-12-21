@@ -1,4 +1,3 @@
 [INFO]:Creating Start Scene| In: StartScene.cpp| On line: 14
 [INFO]:Everything Worked!| In: CoreEngine.cpp| On line: 60
 [INFO]:Creating Game Scene| In: GameScene.cpp| On line: 13
-[ERROR]:Trying to add a game object with the tag dice that already exists| In: SceneGraph.cpp| On line: 84

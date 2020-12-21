@@ -41,6 +41,36 @@ void GameObject::Update(const float deltaTime_)
 {
 	SetAngle(angle + 0.005f);
 	component;
+	
+	position += velocity * deltaTime_ + 0.5f * acceleration * deltaTime_ * deltaTime_;
+	velocity += acceleration * deltaTime_;
+
+	if (position.x >= 20)
+	{
+		position.x = 20;
+	}
+	else if (position.x <= -20)
+	{
+		position.x = -20;
+	}
+
+	if (position.y >= 10)
+	{
+		position.y = 10;
+	}
+	else if (position.y <= -10)
+	{
+		position.y = -10;
+	}
+
+	if (position.z >= 10)
+	{
+		position.z = 10;
+	}
+	else if (position.z <= -10)
+	{
+		position.z = -10;
+	}
 }
 
  glm::vec3 GameObject::GetPosition() const
@@ -67,41 +97,11 @@ BoundingBox GameObject::GetBoundingBox()
 
 void GameObject::SetPosition(glm::vec3 Position_)
 {
-	position.x += Position_.x;
-	position.y += Position_.y;
-	position.z += Position_.z;
+	position = Position_;
+	
 	
 
-	if (position.x >= 20)
-	{
-		position.x = 20;
-	}
-
-
-	if (position.x <= -20)
-	{
-		position.x = -20;
-	}
-
-	if (position.y >= 10)
-	{
-		position.y = 10;
-	}
-
-	if (position.y <= -10)
-	{
-		position.y = -10;
-	}
-
-	if (position.z >= 10)
-	{
-		position.z = 10;
-	}
-
-	if (position.z <= -10)
-	{
-		position.z = -10;
-	}
+	
 
 	if (model)
 	{
@@ -165,5 +165,35 @@ void GameObject::SetHit(bool hit_, int buttonType_)
 		std::cout << "Hit: " << tag << std::endl;
 	}
 
+}
+
+glm::vec3 GameObject::GetVelocity() const
+{
+	return velocity;
+}
+float GameObject::GetMass() const
+{
+	return mass;
+}
+glm::vec3 GameObject::GetAcceleration() const
+{
+	return acceleration;
+}
+
+void GameObject::SetVelocity(glm::vec3 velocity_)
+{
+	velocity = velocity_;
+}
+void GameObject::SetMass(float mass_)
+{
+	mass = mass_;
+}
+void GameObject::SetAcceleration(glm::vec3 acceleration_)
+{
+	acceleration = acceleration_;
+}
+void GameObject::ApplyForce(glm::vec3 force)
+{
+	acceleration = force / mass;
 }
 

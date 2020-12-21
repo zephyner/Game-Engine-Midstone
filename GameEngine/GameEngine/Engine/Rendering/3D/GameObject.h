@@ -21,6 +21,9 @@ public:
 	BoundingBox GetBoundingBox();
 	std::string GetTag() const;
 	bool GetHit() const;
+	glm::vec3 GetVelocity() const;
+	float GetMass() const;
+	glm::vec3 GetAcceleration() const;
 
 	void SetPosition(glm::vec3 Position_);
 	void SetAngle(float angle_);
@@ -28,6 +31,10 @@ public:
 	void SetScale(glm::vec3 scale_);
 	void SetTag(std::string tag_);
 	void SetHit(bool hit_, int buttonType_);
+	void SetVelocity(glm::vec3 velocity_);
+	void SetMass(float mass_);
+	void SetAcceleration(glm::vec3 acceleration_);
+	void ApplyForce(glm::vec3 force);
 	void OnDestroy();
 
 	template <class T>
@@ -91,6 +98,9 @@ private:
 	glm::vec3 rotation;
 	glm::vec3 scale;
 	int modelInstance;
+	glm::vec3 velocity;
+	float mass;
+	glm::vec3 acceleration;
 
 	BoundingBox box;
 

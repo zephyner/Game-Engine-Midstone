@@ -1,13 +1,94 @@
 ﻿  CollisionHandler.cpp
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  CollisionDetection.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6,20): warning C4099: 'BoundingBox': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  Camera.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  CoreEngine.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Core\CoreEngine.cpp(10,11): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
   GameObject.cpp
+  EventListener.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
   GameScene.cpp
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
-C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  Game1.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  Main.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  StartScene.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  MouseEventListener.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(86,44): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(89,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(90,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(97,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Event\MouseEventListener.cpp(98,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SceneGraph.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+  ParticleEmitter.cpp
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\FX\ParticleEmitter.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Randomizer.h(56,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\FX\ParticleEmitter.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\CollisionDetection.h(6,18): warning C4099: 'BoundingBox': type name first seen using 'struct' now seen using 'class'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\BoundingBox.h(6): message : see declaration of 'BoundingBox'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(7,1): warning C4099: 'Ray': type name first seen using 'class' now seen using 'struct'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\Math\Ray.h(6): message : see declaration of 'Ray'
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\FX\ParticleEmitter.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\GameEngine\Engine\FX\ParticleEmitter.cpp(35,23): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
-  GameEngine.vcxproj -> C:\Users\Zephyner\Desktop\Game-Engine-Midstone-20201219T043357Z-001\Game-Engine-Midstone\GameEngine\Debug\GameEngine.exe
+  GameEngine.vcxproj -> C:\Users\Zephyner\Documents\GitHub\Game-Engine-Midstone\GameEngine\Debug\GameEngine.exe

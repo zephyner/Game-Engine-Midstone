@@ -29,13 +29,15 @@ bool GameScene::OnCreate()
 	SceneGraph::GetInstance()->AddModel(model2);
 
 	//add gameobject
-	GameObject* dice = new GameObject(model1, glm::vec3(-2.0f, -0.5f, 0.0f));
+	GameObject* dice = new GameObject(model1, glm::vec3(-2.0f, 0.5f, 0.0f));
 	SceneGraph::GetInstance()->AddGameObject(dice, "dice");
 
 	GameObject* dice2 = new GameObject(model2, glm::vec3(3.0f, -1.0f, 0.0f));
-	SceneGraph::GetInstance()->AddGameObject(dice2, "dice");
+	SceneGraph::GetInstance()->AddGameObject(dice2, "dice2");
 
-
+	SceneGraph::GetInstance()->GetGameObject("dice")->SetMass(1.0f);
+	SceneGraph::GetInstance()->GetGameObject("dice")->ApplyForce(glm::vec3(0.05f, 0.02f, 0.0f));
+	
 
 	return true;
 }
@@ -43,9 +45,8 @@ void GameScene::Update(const float deltaTime_)
 {
 	SceneGraph::GetInstance()->Update(deltaTime_);
 	
-	SceneGraph::GetInstance()->GetGameObject("dice")->SetPosition(glm::vec3(-0.05f, 0.0f, 0.0f));
+	//SceneGraph::GetInstance()->GetGameObject("dice")->SetPosition(glm::vec3(0.05f, 0.02f, 0.0f));
 
-	
 }
 void GameScene::Render()
 {
